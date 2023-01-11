@@ -56,6 +56,7 @@ const EditItems = observer(
                 // blurred: () => {
                 //   this.validator.showMessageFor('Title');
                 // },
+                blurred: this.validator,
               },
               {
                 label: 'Description',

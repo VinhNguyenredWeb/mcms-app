@@ -181,6 +181,7 @@ const EditCategories = observer(
               // blurred: () => {
               //   this.validator.showMessageFor('Product Name');
               // },
+              blurred: this.validator,
             },
             // {
             //   label: 'Alias',
