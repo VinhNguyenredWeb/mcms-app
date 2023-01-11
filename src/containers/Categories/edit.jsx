@@ -178,9 +178,9 @@ const EditCategories = observer(
               changed: (data) => {
                 this.formPropsData[CMS_CATE_DETAIL_FIELD_KEY.TITLE] = data.target.value;
               },
-              blurred: () => {
-                this.validator.showMessageFor('Product Name');
-              },
+              // blurred: () => {
+              //   this.validator.showMessageFor('Product Name');
+              // },
             },
             // {
             //   label: 'Alias',
